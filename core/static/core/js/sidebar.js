@@ -2,12 +2,7 @@ import $ from 'jquery'
 import PerfectScrollbar from 'perfect-scrollbar'
 import ToggleClasses from './toggle-classes'
 
-/**
- * --------------------------------------------------------------------------
- * CoreUI (v2.0.0-beta.0): sidebar.js
- * Licensed under MIT (https://coreui.io/license)
- * --------------------------------------------------------------------------
- */
+
 
 const Sidebar = (($) => {
   /**

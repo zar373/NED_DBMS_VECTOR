@@ -1,17 +1,5 @@
 @charset "UTF-8";
-/*!
- * CoreUI - Open Source Dashboard UI Kit
- * @version v2.0.0-beta.0
- * @link https://coreui.io
- * Copyright (c) 2018 creativeLabs Łukasz Holeczek
- * Licensed under MIT (https://coreui.io/license)
- */
-/*!
- * Bootstrap v4.0.0 (https://getbootstrap.com)
- * Copyright 2011-2018 The Bootstrap Authors
- * Copyright 2011-2018 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
 :root {
   --blue: #20a8d8;
   --indigo: #6610f2;

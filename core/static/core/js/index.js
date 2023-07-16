@@ -3,12 +3,7 @@ import AjaxLoad from './ajax-load'
 import AsideMenu from './aside-menu'
 import Sidebar from './sidebar'
 
-/**
- * --------------------------------------------------------------------------
- * CoreUI (v2.0.0-beta.0): index.js
- * Licensed under MIT (https://coreui.io/license)
- * --------------------------------------------------------------------------
- */
+
 
 (($) => {
   if (typeof $ === 'undefined') {

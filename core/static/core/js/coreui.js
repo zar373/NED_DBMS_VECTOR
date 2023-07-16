@@ -1,8 +1,4 @@
-/*!
-  * CoreUI v2.0.0-beta.0 (https://coreui.io)
-  * Copyright 2018 Łukasz Holeczek
-  * Licensed under MIT (https://coreui.io)
-  */
+
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('jquery'), require('perfect-scrollbar')) :
   typeof define === 'function' && define.amd ? define(['exports', 'jquery', 'perfect-scrollbar'], factory) :
