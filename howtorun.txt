@@ -1,0 +1,41 @@
+Install virtualenv:
+pip install virtualenv
+
+Create a virtual environment named 'env':
+virtualenv env
+
+Navigate to the 'Scripts' folder in the virtual environment:
+cd env/Scripts
+
+Activate the virtual environment:
+activate
+
+Go back to the project directory:
+cd ../..
+
+Install Django:
+pip install django
+
+Install project requirements from requirements.txt:
+pip install -r requirements.txt
+
+Install Pillow (image library for Django):
+python -m pip install Pillow
+
+Install dj_static (required for static file handling):
+pip install dj_static
+
+Create database tables migrations:
+python manage.py makemigrations
+
+Migrate database tables:
+python manage.py migrate
+
+Create a superuser for the admin account:
+python manage.py createsuperuser
+
+Run the development server:
+python manage.py runserver
+
+Access the project dashboard at:
+http://127.0.0.1:8000/
